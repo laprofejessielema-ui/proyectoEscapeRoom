@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EscapeRoom-Apellido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Comienza la portada de nuestro escape room -->   
+<header>
+    <h1>EL MISTERIO DEL CÓDIGO DE LA MANSIÓN</h1>
+    <h2>Escape Room Misterio en la mansión</h2>
+    <p> Es una noche sin estrellas y, mientras caminas por un oscuro sendero, descubres una antigua mansión abandonada. </p>
+    <p> La puerta está entreabierta. Entras por curiosidad, pero apenas das unos pasos... </p>
+    <p> <b>¡CLAC!</b> </p>
+    <p> La puerta se cierra detrás de ti. Intentas abrirla, pero no puedes. </p> 
+</header>
+  <p> De repente, una pantalla antigua se enciende en una de las paredes y aparece un mensaje: </p>
+<blockquote>
+    <p> "Bienvenido, explorador. Esta mansión fue construida con un código secreto. Solo quien logre descifrarlo podrá escapar." </p>
+</blockquote>
+  <p> Frente a ti aparecen <b>cinco habitaciones</b>. </p>
+  <img src="https://i.ibb.co/0gf4Cbd/Portada-Escape-Room-Misterio-del-c-digo-de-la-mansi-n.jpg"   alt="El misterio del código de la mansión" width="400">
+
+<!-- Comienza las distintas habitaciones/misiones del espace room -->
+
+<section id="mision1">
+  <h2>MISIÓN 1 — LA HABITACIÓN OSCURA</h2>
+  <p>Entras en una habitación completamente oscura. Una puerta está cerrada frente a ti. </p>
+  <p>En la pared encuentras un mensaje misterioso. </p>
+  <div class="desafio">
+    <h3>DESAFÍO</h3>
+    <p> Descubre qué etiqueta HTML se utiliza para crear el título principal. </p>
+    <h3>EL CÓDIGO PERDIDO</h3>
+    <p> Para abrir la siguiente puerta deberás descubrir qué etiqueta HTML se utiliza para crear el título principal. </p>
+    <pre>
+     &lt;_____&gt;
+     EL MISTERIO DE LA MANSIÓN
+     &lt;/_____&gt;
+    </pre>
+    <p><b>Tu respuesta:</b></p>
+    <input type="text" id="respuesta1">
+    <button id="boton1">COMPROBAR</button>
+    <p id="mensaje1"></p>
+  </div>
+</section>
+
+<section id="mision2">
+  <h2>MISIÓN 2 — LA HABITACIÓN PROHIBIDA</h2>
+  <p> Una puerta se abre lentamente y encuentras una nueva pista. </p>
+  <div class="desafio">
+    <h3>DESAFÍO</h3>
+    <p> Descubre qué etiqueta HTML se utiliza para crear un párrafo. </p>
+    <pre>
+     &lt;_____&gt;
+     Has encontrado una nueva pista.
+     &lt;/_____&gt;
+    </pre>
+    <p><b>Tu respuesta:</b> </p>
+    <input type="text" id="respuesta2">
+    <button id="boton2">COMPROBAR</button>
+    <p id="mensaje2"></p>
+  </div>
+</section>
+
+<section id="mision3">
+  <h2>MISIÓN 3 — LA HABITACIÓN DEL CÓDIGO PERDIDO</h2>    
+  <p> Entras en la habitación y en la pared encuentras un mensaje escrito con letras extrañas. </p>
+  <blockquote>
+    <p>"Para abrir la siguiente puerta deberás descubrir cómo crear una lista numerada en HTML."</p>
+  </blockquote>
+  <div class="desafio">
+    <h3>DESAFÍO</h3>
+    <p> Observa el siguiente código: </p>
+    <pre>
+    &lt;_____&gt;
+    &lt;li&gt;PÁRRAFO&lt;/li&gt;
+    &lt;li&gt;LISTA&lt;/li&gt;
+    &lt;li&gt;TÍTULO&lt;/li&gt;
+    &lt;/_____&gt;
+    </pre>
+    <p> ¿Qué etiqueta debe colocarse en los espacios? </p>
+    <p><b>Tu respuesta:</b> </p>
+    <input type="text" id="respuesta3">
+    <button id="boton3">COMPROBAR</button>
+    <p id="mensaje3"></p>
+  </div>
+</section>
+
+<section id="mision4">
+  <h2>MISIÓN 4 — LA HABITACIÓN DE LAS PISTAS</h2>    
+  <p> Al entrar en la habitación encuentras una serie de pistas. Todas están relacionadas con la mansión. </p>
+  <div class="desafio">
+    <h3>DESAFÍO</h3>
+    <p>Para organizar estas pistas necesitas una lista cuyos elementos aparezcan con viñetas. </p>
+    <pre>
+    &lt;_____&gt;
+    &lt;li&gt;La primera pista está debajo del espejo.&lt;/li&gt;
+    &lt;li&gt;La segunda pista está junto a la puerta.&lt;/li&gt;
+    &lt;li&gt;La tercera pista está detrás del cuadro.&lt;/li&gt;
+    &lt;/_____&gt;
+    </pre>
+    <p> ¿Qué etiqueta debe colocarse en los espacios? </p>
+    <p><b>Tu respuesta:</b> </p>
+    <input type="text" id="respuesta4">
+    <button id="boton4">COMPROBAR</button>
+    <p id="mensaje4"></p>
+  </div>
+  </section>
+
+<section id="mision5">
+  <h2>MISIÓN 5 — LA ÚLTIMA HABITACIÓN</h2>
+  <p> Has llegado a la última habitación. Frente a ti aparece una enorme puerta. </p>
+  <p> En la puerta se puede leer un mensaje: </p>
+  <blockquote>
+    <p>"Solo podrás escapar si completas correctamente el código HTML."</p>
+  </blockquote>
+  <div class="desafio">
+    <h3>DESAFÍO FINAL</h3>
+    <p> Resuelve el último desafío para escapar de la mansión.</p>
+    <p>Completa las etiquetas que faltan: </p>
+    <pre>
+    &lt;_____&gt;
+    &lt;_____&gt;¡HAS ESCAPADO!&lt;/_____&gt;
+    &lt;_____&gt; Felicitaciones, has resuelto el misterio de la mansión. &lt;/_____&gt;
+    &lt;/_____&gt;
+    </pre>
+    <p>Pista: Una etiqueta sirve para crear un título y otra para escribir un párrafo. </p>
+    <p><b>Respuestas:</b> </p>
+    <input type="text" id="respuesta5a">
+    <input type="text" id="respuesta5b">
+    <input type="text" id="respuesta5">
+    <button id="boton5">COMPROBAR</button>
+    <p id="mensaje5"></p>
+  </div>
+</section>
+
+<footer>
+<h2>¡FELICITACIONES!</h2>
+<p> Has logrado resolver todos los desafíos y salir de la Mansión </p>
+<p> Escape Room - El misterio del código de la mansión  </p>
+<p> Creado por Jessie Lema</p>
+</footer>
+<script src="juego.js"></script>
+</body>
+</html>
+
+
+
+
